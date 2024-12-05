@@ -5,7 +5,7 @@ import { Worker, Viewer } from '@react-pdf-viewer/core';
 
 
 // Import the PDF file from the same directory
-import newsletterPdf from '../assets/newsletter2.pdf';
+import newsletterPdf from '../assets/Newsletter11-23.pdf';
 
 const Newsletter = () => {
   return (
