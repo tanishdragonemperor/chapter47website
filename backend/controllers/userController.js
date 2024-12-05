@@ -315,6 +315,8 @@ const paymentStripe = async (req, res) => {
             line_items: line_items,
             mode: 'payment',
         })
+        console.log(session)
+        
 
         res.json({ success: true, session_url: session.url });
 
